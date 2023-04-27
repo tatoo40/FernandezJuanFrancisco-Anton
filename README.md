@@ -1,5 +1,5 @@
 ## DESCRIPCION GENERAL DE PROYECTO.
-Este proyecto sera aplicado para la cantina Anton. La idea es que los clientes puedan solicitar los platos mas solicitados de una manera mas agil y comodo.
+Este proyecto sera aplicado para la cantina Anton. La idea es que los clientes puedan solicitar los platos mas requeridos de una manera mas agil y comodo.
 
 ## FASE DE PROYECTO
 En desarrollo, Repositorio creado y proximamente realizarmeos la maqueta de 5 secciones.
