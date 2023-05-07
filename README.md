@@ -39,5 +39,8 @@ Juan Francisco Fernandez
 
 ## OTRA INFO DE INTERES
 Paleta de colores:#000000, #FFFFFF #D9D9D9, #F2F0EA, #C7A17A
-Tipografía: Roboto
+Tipografía: Roboto Regular, Bold, Light
 Logo: logo.png
+
+## CONSIDERACIONES
+El boceto completo se encuentra en la carpeta assets en un pdf y despues esta dividido por dispositivo y pantalla en imagenes.
