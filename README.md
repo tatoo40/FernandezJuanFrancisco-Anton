@@ -44,3 +44,5 @@ Logo: logo.png
 
 ## CONSIDERACIONES
 El boceto completo se encuentra en la carpeta assets en un pdf y despues esta dividido por dispositivo y pantalla en imagenes.
+
+Link a figna:https://www.figma.com/file/uB9g1ev13BVUdMGs80GOqM/BOCETO-PARA-ANTON?type=design&node-id=0%3A1&t=vBcY3O5kgBArnjeV-1
