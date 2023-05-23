@@ -17,7 +17,10 @@ Funcionalidades a desarrollar:
 
 
 ## FASE DE PROYECTO
-La fase de diseno se ha finalizado, esperando aprobacion por parte de Matias para continuar con la maquetacion del sitio
+Fase de maquetacion. Se realizo mobile, home, product detail y checkout
+reset.css
+
+Proxima fase: Terminar las demas seccion y corregir detalles mobile y desktop
 
 ## REQUISITOS DEL ENTORNO DE DESARROLLO
 -
