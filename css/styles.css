@@ -38,6 +38,9 @@ border: none;
 
 
 }
+a{
+  text-decoration: none;
+}
 h1{
   font-size: 2em;
   font-weight: 500;
@@ -205,7 +208,18 @@ footer img{
   gap:30px;
   
 }
+.contenedorForm{
 
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  text-align: center;
+  padding: 1rem;
+  gap:30px;
+  margin-top: 1rem;
+  
+}
 
 .imagenCarrito{
   flex-grow: 1;
@@ -223,19 +237,19 @@ footer img{
 .centroCarrito{
   display: flex;
   flex-direction: column;
-  flex: 60%;
+  flex: 55%;
   text-align: left;
 }
 .derechaCarrito{
   display: flex;
   flex-direction: column;
-  flex: 10%;
+  flex: 15%;
   text-align: right;
   
 }
 
 .icono-chico{
-  font-size: 6vw !important;
+  font-size: 4vw !important;
 }
 .contenedorCarrito p{
   margin-top: 1.2em;
@@ -261,17 +275,17 @@ footer img{
 }
 
 .btn_carrito {
-  width: 6vw;
-  height: 6vw;
+  width: 4vw;
+  height: 4vw;
   border: 0;
   background-color: #D9D9D9;
 }
 
 .cantidadInput{
   border: 0;
-  width: 6vw;
+  width: 4vw;
   text-align: center;
-  height: 6vw;
+  height: 4vw;
 }
 
 
@@ -301,15 +315,15 @@ footer img{
     flex: 100%;
   }  
   .btn_carrito {
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
 
   }
   
   .cantidadInput{
 
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
   }
 }
 
@@ -319,31 +333,12 @@ footer img{
   flex-wrap: wrap;
   text-align: center;
 }
-
-.flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 30%;
-}
-.flex-item-centro {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 30%;
+.contenedorCarritoExt{
+  display: flex;
+  justify-content: center;
 }
 
 
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 30%;
-}
-
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-item-right, .flex-item-left {
-    flex: 100%;
-  }
-}
 
 
 .main-nav {
@@ -396,3 +391,271 @@ footer img{
     text-align: left;
   }
 }
+
+
+.card {
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  background: #D9D9D9; 
+  justify-content: center;
+
+
+}
+/* display: flex;: Esta propiedad se aplica al contenedor principal (.container) y establece su tipo de visualización como flex, lo que permite utilizar Flexbox para el diseño de los elementos secundarios. 
+
+flex-wrap: wrap;: Esta propiedad se aplica al contenedor principal (.container) y permite que los elementos secundarios se envuelvan en múltiples líneas cuando no hay suficiente espacio horizontal.
+
+gap: 10px;: Esta propiedad se aplica al contenedor principal (.container) y establece un espacio de 10 píxeles entre los elementos secundarios, creando un margen uniforme.
+*/
+.barra{
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 100vh;
+
+  background-color:#333;
+}
+.contenido{
+  width: 100%;
+  min-height: 100vh;
+  background-color: aqua;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-group label{
+  margin-bottom: 5px;
+  font-size:1rem;
+ 
+}
+
+.form-group input {
+  padding: 10px;
+  height: 30px;
+  min-width: 145px;
+  border: 0;
+}
+
+.form-group textarea {
+  padding: 10px;
+
+  min-width: 145px;
+  border: 0;
+}
+
+.form-group button {
+  padding: 10px;
+  height: 35px;
+  border: 0;
+  background: #333333;
+  color:#fff;
+  margin-top: 10px;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+
+@media (max-width:768px){
+  .row{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  }
+
+  .contenedorProductoListaItem{
+    width: 90% !important;
+  
+  }
+
+}
+
+.contenedorProductoListaItem h2{
+  margin: 0.5rem;
+}
+
+.contenedorListaprod{
+  width: 100%;
+  background-color: #D9D9D9;
+}
+
+.altura-300{
+  padding: 7.5rem;
+  display: block;
+}
+.blanco{
+  background: #FFF;
+}
+.accordion-bral {
+  min-height: 0;
+  min-width: 220px;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  margin: 0px!important;
+}
+.contenedorProductoListaBtn{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.btn_compra_lista{
+  background-color: #242323;
+  color: #FFF;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 0;
+  margin: 0.5rem;
+  width: 30%;
+  height: 35px;
+}
+
+.contenedorProductoLista{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 1rem 0 2rem;
+}
+
+.contenedorProductoListaItem{
+  width: 30%;
+ 
+}
+
+.accordion-bral .ac-label {
+
+  padding: 10px 20px;
+  position: relative;
+  display: block;
+  height: auto;
+  cursor: pointer;
+  color: #777;
+  line-height: 33px;
+  font-size: 2rem;
+  background: #F2F0EA;
+  border: 1px solid #CCC;
+  text-align: left;
+}
+.accordion-bral .ac-label:hover {
+  background: #BBB;
+}
+.accordion-bral input + .ac-label  {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.accordion-bral input:checked + .ac-label,
+.accordion-bral input:checked + .ac-label:active {
+  background-color: rgba(79, 79, 79, 0.5) !important;
+  color: #FFF;
+  box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.accordion-bral input.ac-input {
+  display: none;
+}
+.accordion-bral .article {
+  background: rgb(240, 240, 240);
+  overflow: hidden;
+  height: 0px;
+  max-height: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.accordion-bral .article p {
+  color: #777;
+  line-height: 23px;
+  font-size: 14px;
+  padding: 20px;
+}
+.accordion-bral input:checked ~ .article i {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.accordion-bral input:checked ~ .article.ac-content {
+  height: auto;
+}
+
+.accordion-bral i {
+  position: absolute;
+  transform: translate(-30px, 0);
+  margin-top: 16px;
+  right: 0;
+}
+.accordion-bral input:checked ~ .ac-label i:before {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+.accordion-bral input:checked ~ .ac-label i:after {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.accordion-bral i:before, .accordion-bral i:after {
+  content: "";
+  position: absolute;
+  background-color: #808080;
+  width: 3px;
+  height: 9px;
+}
+.accordion-bral i:before {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+.accordion-bral i:after {
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul.ac-list {
+  padding-left: 40px;
+  list-style-type: disc;  
+}
+
+table.ac-table {
+  margin: 20px 0 20px 20px;
+}
+table.ac-table th{
+  text-align: left;
+}
+
+@media (max-width: 550px) {
+  .accordion-bral .ac-label {
+  font-family: Arial, sans-serif;
+  padding: 5px 20px;
+  position: relative;
+  display: block;
+  height: auto;
+  padding-right: 40px;
+  cursor: pointer;
+  color: #777;
+  line-height: 33px;
+  font-size: 19px;
+  background: #EFEFEF;
+  border: 1px solid #CCC;
+}
+  .accordion-bral i {
+  position: absolute;
+  transform: translate(-30px, 0);
+  margin-top: 2%;
+  right: 0;
+}
+}
+/* ---------- accordion style end --------------------------------------- */
