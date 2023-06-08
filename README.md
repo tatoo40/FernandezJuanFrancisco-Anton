@@ -17,10 +17,14 @@ Funcionalidades a desarrollar:
 
 
 ## FASE DE PROYECTO
-Fase de maquetacion. Se realizo mobile, home, product detail y checkout
+Fase de maquetacion. Se realizo mobile, home, product detail, checkout, formulario de login, formulario de registro, formulario de olvido password, formulario de pago, listado de produtos
 reset.css
 
-Proxima fase: Terminar las demas seccion y corregir detalles mobile y desktop
+Proxima fase (30/6/2023)
+* Corregir algunos errores de visualizacion principalmente en desktop
+* Hacer menu hamburugesa
+* Hacer seccion de novedades
+* Hacer mas interactiva la pagina 
 
 ## REQUISITOS DEL ENTORNO DE DESARROLLO
 -

@@ -537,7 +537,9 @@ gap: 10px;: Esta propiedad se aplica al contenedor principal (.container) y esta
   width: 30%;
  
 }
-
+.icono-blanco{
+  color: #FFF;
+}
 .accordion-bral .ac-label {
 
   padding: 10px 20px;
